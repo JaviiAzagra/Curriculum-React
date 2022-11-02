@@ -1,25 +1,28 @@
 export const CV = {
   hero: {
-    name: "Javier Azagra",
+    name: "< Hi, I'm Javier Azagra />",
     about: "Full Stack Developer Student",
     city: "Madrid / Spain",
     email: "javiazagra12@gmail.com",
     birthDate: "12/06/2000",
-    /* image: "https://i.imgur.com/ZQAkED3.png", */
+    image: "/assets/logo2.jpg",
     gitHub: "https://github.com/JaviiAzagra",
     aboutMe: [
       {
         info: "Full stack developer student with a lot of motivation.",
       },
       {
-        info: "Prepared to demonstrate my skills and teamwork to achieve good results",
+        info: "Prepared to demonstrate my skills and teamwork to achieve good results.",
+      },
+      {
+        info: "I like music and cars, especially going out for a drive.",
       },
     ],
   },
   education: [
       {
         name: "Bootcamp Full Stack Developer",
-        date: "2022 - Actualidad",
+        date: "2022 - Present",
         where: "Upgrade Hub, Madrid",
       },
       {
@@ -44,6 +47,11 @@ export const CV = {
       date: "05/04/2021 - 8/06/2021",
       where: "ALTEN",
     },
+    {
+      name: "Hosteleria",
+      date: "5/07/2022 - 30/07/2022",
+      where: "La Luna",
+    },
   ],
   languages: {
     language: "Spanish",
@@ -56,13 +64,19 @@ export const CV = {
     "JavaScript",
     "Node",
   ],
-  volunteer: [
+  projects: [
     {
-      name: "September Foundation",
-      where: "MIT",
-      description:
-        "The September Foundation is a program by Tony Stark to fund schools and young prodigies in their education. The foundation was named by Stark after a lyric from The Fantasticks song, 'Try to Remember,' which he heard his mother sing and play on the piano before her death.",
+      name: "Dado",
+      url: "https://dado-eight.vercel.app/",
+      github: "https://github.com/JaviiAzagra/Dado",
+      img: "/assets/dadoproject.png",
     },
+    {
+      name: "PokeApi",
+      url: "https://pokeapi-ruby.vercel.app/",
+      github: "https://github.com/JaviiAzagra/Pokeapi",
+      img:"/assets/pokeapiproject.png"
+    }
   ],
 };
 

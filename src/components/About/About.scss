@@ -1,0 +1,33 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.about-card {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 12px;
+  align-items: center;  
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+}
+h4 {
+  color: #000000;
+}
+a {
+  color: #000000;
+ 
+}
+
+.about-p{
+  text-align: center;
+}
+
+.line{
+  text-align: center;
+  border: 2px solid #000000;
+}

@@ -1,13 +1,15 @@
 import React from "react";
-import "./About.css";
+import "./About.scss";
 
 const About = ({ metadata }) => {
   return (
-    <div>
-      <h2>About</h2>
-      {metadata.map((element) => {
-        return <h4 key={JSON.stringify(element.info)}>{element.info}</h4>;
-      })}
+    <div className="about">
+      <div className="about-card">
+      <h1>[ About Me ]</h1>
+        {metadata.map((element) => {
+          return <p className="about-p" key={JSON.stringify(element.info)}>{element.info}</p>;
+        })}
+      </div>
     </div>
   );
 };

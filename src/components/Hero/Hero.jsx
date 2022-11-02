@@ -1,21 +1,28 @@
 import React from 'react';
-import "./Hero.css";
+import "./Hero.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faEnvelope, faLocationDot, faCalendar} from '@fortawesome/free-solid-svg-icons';
+import {faEnvelopeOpen, faLocationDot, faCalendarDays, faCodeBranch} from '@fortawesome/free-solid-svg-icons';
 
 
 const Hero = ({hero}) => {
   return (
-    <div className='hero'>
-       <img src={hero.image} alt="" />
-        <div className="card">
-          <h1>{hero.name}</h1>
-          <h4>{hero.about}</h4>
-          <p><FontAwesomeIcon icon={faLocationDot} /> {hero.city} </p>
-          <p><FontAwesomeIcon icon={faCalendar}/> {hero.birthDate}</p>
-          <p> <FontAwesomeIcon icon={faEnvelope} /><a href={"mailto:" + hero.email}> javiazagra12@gmail.com</a></p>
-          <p> <a href={hero.gitHub}>GitHub</a></p>
+    
+    <div>
+      <h1 className="myname">{hero.name}</h1>
+        <div className='hero'>
+        <div className='img'>
+          <img src={hero.image} alt="" />
         </div>
+        <div className="card-hero">
+        {/* <h1 className="myname">{hero.name}</h1> */}
+          <h4>{hero.about}</h4>
+          <p><FontAwesomeIcon className='icons' icon={faLocationDot} /> {hero.city} </p>
+          <p><FontAwesomeIcon className='icons' icon={faCalendarDays}/> {hero.birthDate}</p>
+          <p> <FontAwesomeIcon className='icons' icon={faEnvelopeOpen} /><a href={"mailto:" + hero.email}> javiazagra12@gmail.com</a></p>
+          <p> <a href={hero.gitHub}><FontAwesomeIcon className='icons' icon={faCodeBranch} /> GitHub</a></p>
+        </div>
+      </div>
+      {/* <div class="line"></div> */}
     </div>
   )
 }
