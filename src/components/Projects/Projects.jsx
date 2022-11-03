@@ -14,7 +14,7 @@ const Projects = ({ projects }) => {
                 <img src={item.img} alt=""/>
                 <div className="links" key={JSON.stringify(item)}>
                     <a href={item.url} rel="noreferrer" target="_blank">Web</a>
-                    <a href={item.github} rel="noreferrer" target="_blank">GitHub</a>
+                    <a className="button" href={item.github} rel="noreferrer" target="_blank">GitHub</a>
                 </div>
                 </div>
             </div>

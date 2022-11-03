@@ -20,24 +20,24 @@ export const CV = {
     ],
   },
   education: [
-      {
-        name: "Bootcamp Full Stack Developer",
-        date: "2022 - Present",
-        where: "Upgrade Hub, Madrid",
-      },
-      {
-        name: "Grado Superior en Administracion de Sistemas Informaticos en Red",
-        date: "2019 - 2021",
-        where: "ISEP CEU, Madrid",
-      },
-      {
+    {
+      name: "Bootcamp Full Stack Developer",
+      date: "2022 - Present",
+      where: "Upgrade Hub, Madrid",
+    },
+    {
+      name: "Grado Superior en Administracion de Sistemas Informaticos en Red",
+      date: "2019 - 2021",
+      where: "ISEP CEU, Madrid",
+    },
+    {
       name: "Bachillerato en Ciencias Tecnológicas",
-      date: "2017 - 2019",
+      date: "2016 - 2019",
       where: "Colegio Santa Helena, Alcobendas, Madrid",
     },
     {
       name: "Educación Secundaria Obligatoria",
-      date: "2014 - 2017",
+      date: "2012 - 2016",
       where: "Colegio Santa Helena, Alcobendas, Madrid",
     },
   ],
@@ -50,13 +50,19 @@ export const CV = {
     {
       name: "Hosteleria",
       date: "5/07/2022 - 30/07/2022",
-      where: "La Luna",
+      where: "Bar La Luna",
     },
   ],
-  languages: {
-    language: "Spanish",
-    wrlevel: "Native",
-  },
+  languages: [
+    {
+      language: "Spanish",
+      wrlevel: "Native",
+    },
+    {
+      language: "English",
+      wrlevel: "B1",
+    },
+  ],
   habilities: [
     "Teamwork",
     "Microsoft Office",
@@ -75,9 +81,9 @@ export const CV = {
       name: "PokeApi",
       url: "https://pokeapi-ruby.vercel.app/",
       github: "https://github.com/JaviiAzagra/Pokeapi",
-      img:"/assets/pokeapiproject.png"
-    }
+      img: "/assets/pokeapiproject.png",
+    },
   ],
 };
 
-export default CV
+export default CV;
