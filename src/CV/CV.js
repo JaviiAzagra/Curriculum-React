@@ -63,13 +63,14 @@ export const CV = {
       wrlevel: "B1",
     },
   ],
-  habilities: [
-    "Teamwork",
-    "Microsoft Office",
-    "HTML & CSS",
-    "JavaScript",
-    "Node",
-  ],
+  habilities: {
+    html: "/assets/html5.svg",
+    css: "/assets/css3-original-wordmark.svg",
+    js: "/assets/javascript-original.svg",
+    mongo: "/assets/mongodb-original-wordmark.svg",
+    node: "/assets/nodejs-original-wordmark.svg",
+    linux: "/assets/linux-original.svg",
+},
   projects: [
     {
       name: "Dado",

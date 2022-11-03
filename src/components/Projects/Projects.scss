@@ -27,17 +27,27 @@ p {
   color: rgb(0, 0, 0);
 }
 
-.card-projects {
-  width: 350px;
-  height: 450px;
+.Dado {
+  width: 200px;
+  height: 300px;
   margin: 30px;
-  border: solid 2px rgb(0, 0, 0);
-  border-radius: 60px;
+  border: solid 1px rgb(0, 0, 0);
+  border-radius: 20px;
+  background-image: url("../../../public/assets/dadoproject.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.card-projects img {
+.PokeApi {
   width: 200px;
-  height: 200px;
+  height: 300px;
+  margin: 30px;
+  border: solid 1px rgb(0, 0, 0);
+  border-radius: 20px;
+  background-image: url("../../../public/assets/pokeapiproject.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .card {
@@ -49,7 +59,8 @@ p {
 }
 
 .card img {
-  border-radius: 50px;
+  border-radius: 30px;
+  margin-bottom: 40px;
 }
 
 .links {
@@ -66,8 +77,4 @@ p {
   align-items: center;
   color: rgb(0, 0, 0);
   font-weight: bold;
-}
-
-.name {
-  margin-bottom: 0px;
 }

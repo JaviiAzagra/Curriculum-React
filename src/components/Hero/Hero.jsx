@@ -11,7 +11,7 @@ const Hero = ({hero}) => {
       <h1 className="myname">{hero.name}</h1>
         <div className='hero'>
         <div className='img'>
-          <img src={hero.image} alt="" />
+          <img className='logo' src={hero.image} alt="" />
         </div>
         <div className="card-hero">
         {/* <h1 className="myname">{hero.name}</h1> */}
