@@ -7,7 +7,7 @@ import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects/Projects";
 import  More  from "./components/More/More";
 import CV from "./CV/CV";
-/* import Contact from "./components/Contact/Contact"; */
+import Contact from "./components/Contact/Contact";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGraduationCap, faBriefcase, faFolderOpen, faGear} from '@fortawesome/free-solid-svg-icons';
@@ -34,7 +34,7 @@ function App() {
         Options === "Experience" ? <Experience experience={ experience }/> : 
         Options === "Projects" ? <Projects projects={ projects }/> : 
         <More metadata={ languages }/>}
-      {/* <Contact/> */}
+      <Contact/>
       </div>
 
     </div>

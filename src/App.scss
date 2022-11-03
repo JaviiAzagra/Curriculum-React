@@ -1,6 +1,17 @@
+@font-face {
+  font-family: "Cascadia Code";
+  src: url("../public/ttf/CascadiaCode.ttf") format("ttf");
+}
+
+* {
+  background-color: #222428;
+  font-family: "Cascadia Code";
+}
+
 .App {
   display: flex;
   flex-direction: column;
+  background-color: #222428;
 }
 
 .App-header {
@@ -14,51 +25,58 @@
 }
 
 button {
-  width: 150px;
+  width: 180px;
   height: 50px;
   border-radius: 16px;
   margin-left: 10px;
-  border: white;
-  background-color: white;
+  border: #222428;
+  background-color: #222428;
   font-size: 20px;
-  color: #000000;
+  color: #46f3ff;
 }
 
 .btn-4:hover {
-  box-shadow: 0 0 5px 0 #000000 inset, 0 0 10px 4px #000000;
-  color: #000000;
-} 
+  box-shadow: 0 0 5px 0 #46f3ff inset, 0 0 10px 4px #46f3ff;
+  color: #46f3ff;
+}
 
 .more {
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
 }
 
-.icon{
+.icon {
   width: 30px;
 }
 
-.line{
-  text-align: center;
-  border: 2px solid #000000;
-}
-
 h1 {
-  color: #000000;
+  color: #46f3ff;
   text-align: center;
+  font-size: 40px;
 }
 h4 {
-  color: #000000;
+  color: #46f3ff;
+  font-size: 20px;
 }
 a {
-  color: #000000;
-  text-decoration: none;  
+  color: #ffffff;
+  text-decoration: none;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
-.icons{
-  color: #000000;
+.icons {
+  color: #ffffff;
+}
+
+.icon {
+  color: #46f3ff;
+}
+
+p {
+  color: white;
+  font-size: 18px;
 }

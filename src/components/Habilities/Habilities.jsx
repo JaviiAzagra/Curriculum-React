@@ -4,7 +4,7 @@ import "./Habilities.scss";
 const Habilities = ({ habilities }) => {
   return (
     <div>
-      <h1>[ Habilities ]</h1>
+      <h1>[ Skills ]</h1>
       <div className="habilities">
         <div>
           <div className="images">
