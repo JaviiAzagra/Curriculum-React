@@ -14,6 +14,7 @@ import CV from "./CV/CV";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGraduationCap, faBriefcase, faFolderOpen, faGear} from '@fortawesome/free-solid-svg-icons';
 
+
 const { hero, education, experience, projects, languages, habilities} = CV;
 
 function App() {
@@ -25,19 +26,18 @@ function App() {
       <Habilities habilities={habilities}/>
       <div>
         <div className='more'>
-            <button className="btn-4" onClick={() => changeOption("Education")}> <FontAwesomeIcon className="icon" icon={faGraduationCap} /> Education</button>
-            <button className="btn-4" onClick={() => changeOption("Experience")}><FontAwesomeIcon className="icon" icon={faBriefcase} /> Experience</button>
-            <button className="btn-4" onClick={() => changeOption("Projects")}><FontAwesomeIcon className="icon" icon={faGear} /> Projects</button>
-            <button className="btn-4" onClick={() => changeOption("More")}><FontAwesomeIcon className="icon" icon={faFolderOpen} /> More</button>
+            <button className="btn" onClick={() => changeOption("Education")}> <FontAwesomeIcon className="icon" icon={faGraduationCap} /> Education</button>
+            <button className="btn" onClick={() => changeOption("Experience")}><FontAwesomeIcon className="icon" icon={faBriefcase} /> Experience</button>
+            <button className="btn" onClick={() => changeOption("Projects")}><FontAwesomeIcon className="icon" icon={faGear} /> Projects</button>
+            <button className="btn" onClick={() => changeOption("More")}><FontAwesomeIcon className="icon" icon={faFolderOpen} /> More</button>
         </div>
 
         {Options === "Education" ? <Education education={ education }/> : 
         Options === "Experience" ? <Experience experience={ experience }/> : 
         Options === "Projects" ? <Projects projects={ projects }/> : 
-        <More metadata={ languages }/>}
-      <Contact/>
+        <More props={ languages }/>}
       </div>
-
+      <Contact/>    
     </div>
   );
 };

@@ -4,12 +4,12 @@ import "./More.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faRightLong} from '@fortawesome/free-solid-svg-icons';
 
-const More = ({ metadata}) => {
+const More = ({ props }) => {
   return (
     <div className='box'>
       <div className='languages'>
         <h1>[ Languages ]</h1>
-        {metadata.map((element) => {
+        {props.map((element) => {
           return <div className='languages-card' key={JSON.stringify(element.language)}>
           <p>{element.language} <FontAwesomeIcon className="icon" icon={faRightLong} /></p>
           <p> {element.wrlevel} </p>
