@@ -5,7 +5,7 @@ export const CV = {
     city: "Madrid / Spain",
     email: "javiazagra12@gmail.com",
     birthDate: "12/06/2000",
-    image: "/assets/logo2.jpg",
+    image: "/assets/logo.jpg",
     gitHub: "https://github.com/JaviiAzagra",
     aboutMe: [
       {
