@@ -1,17 +1,18 @@
-import "./App.scss";
 import { useState } from "react";
+import "./App.scss";
+
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Education from "./components/Education/Education";
 import Experience from "./components/Experience/Experience";
 import Projects from "./components/Projects/Projects";
 import  More  from "./components/More/More";
-import CV from "./CV/CV";
 import Contact from "./components/Contact/Contact";
+import Habilities from "./components/Habilities/Habilities";
+import CV from "./CV/CV";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGraduationCap, faBriefcase, faFolderOpen, faGear} from '@fortawesome/free-solid-svg-icons';
-import Habilities from "./components/Habilities/Habilities";
 
 const { hero, education, experience, projects, languages, habilities} = CV;
 

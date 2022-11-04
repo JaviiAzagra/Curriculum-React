@@ -19,7 +19,7 @@ const Contact = () => {
 
             <label>
               <p>Phone:</p>
-              <input type="number" name="name" placeholder=' Your Phone'/>
+              <input type="number" name="name" placeholder=' Your Phone' />
             </label>
 
             <label>

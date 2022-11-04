@@ -26,11 +26,6 @@ export const CV = {
       where: "Upgrade Hub, Madrid",
     },
     {
-      name: "Master de Big Data y Data Science",
-      date: "2021 - 2022",
-      where: "Universidad Complutense de Madrid",
-    },
-    {
       name: "Grado Superior en Administracion de Sistemas Informaticos en Red",
       date: "2019 - 2021",
       where: "ISEP CEU, Madrid",
