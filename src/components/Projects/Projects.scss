@@ -1,6 +1,5 @@
 .projects {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
   padding-bottom: 30px;
@@ -15,7 +14,6 @@
 .button {
   display: flex;
 }
-
 
 .Dado {
   width: 200px;

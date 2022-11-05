@@ -5,7 +5,7 @@
 
 * {
   font-family: "Cascadia Code", sans-serif;
-
+  background-color: #222428;
   padding: 0;
 }
 
@@ -82,13 +82,6 @@ p {
   font-size: 18px;
 }
 
-@media screen and (max-width: 750px) { 
-  .App {
-     width: 105%;
- }
-}
-
-
 @media screen and (max-width: 430px) { 
   .App {
      width: 100%;
@@ -113,16 +106,74 @@ p {
   width: 350px;
   height: 50px;
  }
-}
-
-@media screen and (max-width: 300px) { 
-  .App {
-     width: 240%;
+ .projects {
+  display: flex;
+  flex-direction: row;
  }
 }
 
-@media screen and (max-width: 250px) { 
+@media screen and (max-width: 800px) { 
   .App {
-     width: 300%;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     max-width: 390;
+ }
+ .hero {
+  display: flex;
+  flex-direction: column;
+ }
+ .more{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .btn{
+  margin-bottom: 10px;
+ }
+ .form {
+  width: 350px;
+  height: 50px;
+ }
+ .projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
  }
 }
+
+@media screen and (max-width: 290px) { 
+  .App {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     max-width: 390;
+ }
+ .hero {
+  display: flex;
+  flex-direction: column;
+ }
+ .more{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .btn{
+  margin-bottom: 10px;
+ }
+ .form {
+  width: 240px;
+  height: 50px;
+ }
+ .button{
+  width: 200px;
+ }
+ .projects {
+  display: flex;
+  flex-direction: row;
+ }
+}
+
