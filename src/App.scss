@@ -5,13 +5,14 @@
 
 * {
   font-family: "Cascadia Code", sans-serif;
-  background-color: #222428;
+
+  padding: 0;
 }
 
 .App {
   display: flex;
   flex-direction: column;
-  /* background-color: #222428; */
+  background-color: #222428;
 }
 
 /* .App-header {
@@ -91,6 +92,10 @@ p {
 @media screen and (max-width: 430px) { 
   .App {
      width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     max-width: 390;
  }
  .hero {
   display: flex;
@@ -99,6 +104,14 @@ p {
  .more{
   display: flex;
   flex-direction: column;
+  align-items: center;
+ }
+ .btn{
+  margin-bottom: 10px;
+ }
+ .form {
+  width: 350px;
+  height: 50px;
  }
 }
 

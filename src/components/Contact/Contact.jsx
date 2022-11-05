@@ -9,22 +9,22 @@ const Contact = () => {
         <form>
             <label>
               <p>Name:</p>
-              <input type="text" name="name" placeholder=' YourName' />
+              <input className="form" type="text" name="name" placeholder=' YourName' />
             </label>
             
             <label>
               <p>Email:</p>
-              <input type="email" name="email" placeholder=' email@email.com' />
+              <input className="form" type="email" name="email" placeholder=' email@email.com' />
             </label>
 
             <label>
               <p>Subject:</p>
-              <input type="text" name="affair" placeholder=' Subject'/>
+              <input className="form" type="text" name="affair" placeholder=' Subject'/>
             </label>
 
             <label>
               <p>Message:</p>
-              <input className='message' type="text" name="message" placeholder=' Message'/>
+              <input className='form' type="text" name="message" placeholder=' Message'/>
             </label>
             <div className='button'>
             <input className='submit' type="submit" name="boton"/>
