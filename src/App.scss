@@ -90,7 +90,15 @@ p {
 
 @media screen and (max-width: 430px) { 
   .App {
-     width: 200%;
+     width: 100%;
+ }
+ .hero {
+  display: flex;
+  flex-direction: column;
+ }
+ .more{
+  display: flex;
+  flex-direction: column;
  }
 }
 
