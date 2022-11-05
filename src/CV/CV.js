@@ -47,11 +47,6 @@ export const CV = {
       date: "05/04/2021 - 8/06/2021",
       where: "ALTEN",
     },
-    {
-      name: "Hosteleria",
-      date: "5/07/2022 - 30/07/2022",
-      where: "Bar La Luna",
-    },
   ],
   languages: [
     {
@@ -73,16 +68,23 @@ export const CV = {
 },
   projects: [
     {
-      name: "Dado",
+      name: "Dado ",
       url: "https://dado-eight.vercel.app/",
       github: "https://github.com/JaviiAzagra/Dado",
       img: "/assets/dadoproject.png",
     },
     {
-      name: "PokeApi",
+      name: "PokeApi ",
       url: "https://pokeapi-ruby.vercel.app/",
       github: "https://github.com/JaviiAzagra/Pokeapi",
       img: "/assets/pokeapiproject.png",
+    },
+    {
+      name: "CarsApi",
+      back: "https://github.com/JaviiAzagra/Lamborghini-Ferrari-Api",
+      url: "https://lamborghini-ferrari.vercel.app/",
+      github: "https://github.com/JaviiAzagra/Lamborghini-Ferrari-Api",
+      img: "/assets/carsproject.png",
     },
   ],
 };

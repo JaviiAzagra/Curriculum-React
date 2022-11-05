@@ -9,13 +9,15 @@ const Projects = ({ projects }) => {
       <div className="projects projects-card">
         {projects.map((item) => {
           return (
-            <div key={JSON.stringify(item)} className={item.name} > 
+            <div key={JSON.stringify(item)} > 
                 <div className="card">
-                {/* <h1 className="name">{item.name}</h1> */}
-                {/* <div className="links">
-                    <a href={item.url} rel="noreferrer" target="_blank">Web</a>
-                    <a className="button" href={item.github} rel="noreferrer" target="_blank">GitHub</a>
-                </div> */}
+                  <div className={item.name} ></div>
+                    <div>
+                    <a href={item.url} rel="noreferrer" target="_blank"><p>{item.name}</p></a>
+                    </div>
+                    <div>
+                    <a href={item.github} rel="noreferrer" target="_blank"><p>GitHub</p></a>
+                    </div>
                 </div>
             </div>
           );

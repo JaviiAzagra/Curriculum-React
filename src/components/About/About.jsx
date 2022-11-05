@@ -1,7 +1,22 @@
-import { useState } from "react";
+import React from "react";
+/* import {useState} from "react"; */
 import "./About.scss";
 
 const About = ({ metadata }) => {
+  return (
+    <div className="about">
+      <div className="about-card">
+        <h1>[ About Me ]</h1>
+          {metadata.map((element) => {
+            return <p className="about-p" key={JSON.stringify(element.info)}>{element.info}</p>;
+          })}
+      </div>
+    </div>
+
+  );
+};
+  
+/* const About = ({ metadata }) => {
   const [showAbout, setShowAbout] = useState(true);
   return (
     <div>
@@ -23,6 +38,6 @@ const About = ({ metadata }) => {
     </div>
     </div>
   );
-};
+}; */
 
 export default About;

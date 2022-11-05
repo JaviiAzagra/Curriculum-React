@@ -18,11 +18,6 @@ const Contact = () => {
             </label>
 
             <label>
-              <p>Phone:</p>
-              <input type="number" name="name" placeholder=' Your Phone' />
-            </label>
-
-            <label>
               <p>Subject:</p>
               <input type="text" name="affair" placeholder=' Subject'/>
             </label>

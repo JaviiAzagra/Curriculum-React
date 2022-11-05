@@ -26,6 +26,7 @@
   background-image: url("../../../public/assets/dadoproject.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .PokeApi {
@@ -40,12 +41,34 @@
   background-size: cover;
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+.API-Cars-Fronted {
+  width: 200px;
+  height: 300px;
+  margin: 30px;
+  border: solid 1px rgb(0, 0, 0);
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0);
+  background-image: url("../../../public/assets/carsproject.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.CarsApi {
+  width: 200px;
+  height: 300px;
+  margin: 30px;
+  border: solid 1px rgb(0, 0, 0);
+  border-radius: 20px;
+  background-color: rgb(0, 0, 0);
+  background-image: url("../../../public/assets/carsproject.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card p {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }
 
 .card img {
