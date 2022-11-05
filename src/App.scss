@@ -5,15 +5,16 @@
 
 * {
   font-family: "Cascadia Code", sans-serif;
+  background-color: #222428;
 }
 
 .App {
   display: flex;
   flex-direction: column;
-  background-color: #222428;
+  /* background-color: #222428; */
 }
 
-.App-header {
+/* .App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,7 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 button {
   width: 180px;
@@ -78,4 +79,29 @@ a:hover {
 p {
   color: white;
   font-size: 18px;
+}
+
+@media screen and (max-width: 750px) { 
+  .App {
+     width: 105%;
+ }
+}
+
+
+@media screen and (max-width: 430px) { 
+  .App {
+     width: 200%;
+ }
+}
+
+@media screen and (max-width: 300px) { 
+  .App {
+     width: 240%;
+ }
+}
+
+@media screen and (max-width: 250px) { 
+  .App {
+     width: 300%;
+ }
 }
