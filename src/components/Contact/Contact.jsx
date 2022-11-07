@@ -6,30 +6,9 @@ const Contact = () => {
     <div className='container'>
       <h1>[ Contact ]</h1>
       <div className='contact'>
-        <form>
-            <label>
-              <p>Name:</p>
-              <input className="form" type="text" name="name" placeholder=' YourName' />
-            </label>
-            
-            <label>
-              <p>Email:</p>
-              <input className="form" type="email" name="email" placeholder=' email@email.com' />
-            </label>
-
-            <label>
-              <p>Subject:</p>
-              <input className="form" type="text" name="affair" placeholder=' Subject'/>
-            </label>
-
-            <label>
-              <p>Message:</p>
-              <input className='form' type="text" name="message" placeholder=' Message'/>
-            </label>
-            <div className='button'>
-            <input className='submit' type="submit" name="boton"/>
-            </div>
-        </form>
+        <p>If you want to know more about me I leave you the contact information below.</p>
+        <p> <a href={"mailto: javiazagra12@gmail.com"}> javiazagra12@gmail.com</a> </p>
+        <a href='https://www.linkedin.com/in/javier-azagra-garc%C3%ADa/'>Linkedin</a>
       </div>
     </div>
   )
