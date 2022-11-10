@@ -47,11 +47,11 @@ export const CV = {
       date: "05/04/2021 - 8/06/2021",
       where: "ALTEN",
     },
-    {
+    /* {
       name: "Hosteleria",
       date: "01/07/2022 - 30/07/2022",
       where: "La Luna",
-    },
+    }, */
   ],
   languages: [
     {
