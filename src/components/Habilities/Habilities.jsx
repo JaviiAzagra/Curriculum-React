@@ -8,12 +8,13 @@ const Habilities = ({ habilities }) => {
       <div className="habilities">
         <div>
           <div className="images">
+            <img src={habilities.linux} alt="" />
             <img src={habilities.html} alt="" />
             <img src={habilities.css} alt="" />
             <img src={habilities.js} alt="" />
+            <img src={habilities.react} alt="" />
             <img src={habilities.node} alt="" />
             <img src={habilities.mongo} alt="" />
-            <img src={habilities.linux} alt="" />
           </div>
         </div>
       </div>

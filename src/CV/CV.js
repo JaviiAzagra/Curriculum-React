@@ -70,6 +70,7 @@ export const CV = {
     mongo: "/assets/mongodb-original-wordmark.svg",
     node: "/assets/nodejs-original-wordmark.svg",
     linux: "/assets/linux-original.svg",
+    react: "/assets/react-original-wordmark.svg",
 },
   projects: [
     {
