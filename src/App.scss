@@ -2,21 +2,24 @@
 
 * {
   font-family: "Cascadia Code", sans-serif;
-  /*   background-color: #222428; */
   padding: 0;
+}
+
+html {
+  background-color: #222428;
 }
 
 .App {
   display: flex;
   flex-direction: column;
-  background-color: #222428;
+  gap: 20px;
 }
 
 button {
   width: 180px;
   height: 50px;
   border-radius: 16px;
-/*   margin-left: 15px; */
+  /*   margin-left: 15px; */
   border: #222428;
   background-color: #222428;
   font-size: 20px;
@@ -115,16 +118,16 @@ p {
     flex-direction: column;
     align-items: center;
 
-    .card-hero{
+    .card-hero {
       display: flex;
       flex-direction: column;
       align-items: center;
 
-      .info{
+      .info {
         line-height: 0px;
       }
 
-      h4{
+      h4 {
         text-align: center;
       }
     }
@@ -162,8 +165,6 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    
   }
   .more {
     display: flex;

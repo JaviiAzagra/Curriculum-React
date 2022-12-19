@@ -7,6 +7,7 @@ import Contact from "./components/Contact/Contact";
 import Buttons from "./components/Buttons/Buttons";
 import Habilities from "./components/Habilities/Habilities";
 import CV from "./CV/CV";
+import Line from "./components/Line/Line";
 
 const { hero, habilities} = CV;
 

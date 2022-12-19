@@ -22,3 +22,50 @@
   display: flex;
   border: solid 3px #46f3ff;
 }
+
+.btn-cv{
+  width: 180px;
+  height: 50px;
+  border-radius: 16px;
+  border: none;
+  background-color: #222428;
+  font-size: 20px;
+  font-size: 15px;
+}
+
+.btn:hover {
+  box-shadow: 0 0 5px 0 #46f3ff inset, 0 0 10px 4px #46f3ff;
+  color: #46f3ff;
+}
+
+.cv{
+  display: flex;
+  justify-content: center;
+
+  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+    gap: 10px;
+  }
+
+  &__btn{
+    border: 1px solid #46f3ff;
+    height: 50px;
+    width: 150px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;   
+  }
+
+  &__btn:hover{
+    background-color: #46f3ff;
+    color: black;
+    font-weight: bold;   
+  }
+}
+.icons.cv{
+  color: black;
+  margin-right: 100px;
+}
