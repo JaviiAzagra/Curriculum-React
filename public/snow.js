@@ -4,7 +4,7 @@ if (!embedimSnow) {
     return Math.floor(Math.random() * (b - a + 1)) + a;
   }
   var embCSS =
-    ".embedim-snow{position: absolute;width: 10px;height: 10px;background: white;border-radius: 50%;margin-top:-10px}";
+    ".embedim-snow{position: absolute;width: 8px;height: 8px;background: white;border-radius: 50%;margin-top:-10px}";
   var embHTML = "";
   for (i = 1; i < 80; i++) {
     embHTML += '<i class="embedim-snow"></i>';
