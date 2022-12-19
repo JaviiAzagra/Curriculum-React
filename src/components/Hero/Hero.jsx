@@ -16,10 +16,12 @@ const Hero = ({hero}) => {
         <div className="card-hero">
         {/* <h1 className="myname">{hero.name}</h1> */}
           <h4>{hero.about}</h4>
-          <p><FontAwesomeIcon className='icons' icon={faLocationDot} /> {hero.city} </p>
-          <p><FontAwesomeIcon className='icons' icon={faCalendarDays}/> {hero.birthDate}</p>
-          <p> <FontAwesomeIcon className='icons' icon={faEnvelopeOpen} /><a href={"mailto:" + hero.email}> javiazagra12@gmail.com</a></p>
-          <p> <a href={hero.gitHub} rel="noreferrer" target="_blank"><FontAwesomeIcon className='icons' icon={faCodeBranch} /> GitHub</a></p>
+          <div className='info'>
+            <p><FontAwesomeIcon className='icons' icon={faLocationDot} /> {hero.city} </p>
+            <p><FontAwesomeIcon className='icons' icon={faCalendarDays}/> {hero.birthDate}</p>
+            <p> <FontAwesomeIcon className='icons' icon={faEnvelopeOpen} /><a href={"mailto:" + hero.email}> javiazagra12@gmail.com</a></p>
+            <p> <a href={hero.gitHub} rel="noreferrer" target="_blank"><FontAwesomeIcon className='icons' icon={faCodeBranch} /> GitHub</a></p>
+          </div>
         </div>
       </div>
       {/* <div class="line"></div> */}

@@ -1,8 +1,8 @@
-@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+@import url("https://fonts.cdnfonts.com/css/cascadia-code");
 
 * {
-  font-family: 'Cascadia Code', sans-serif;
-/*   background-color: #222428; */
+  font-family: "Cascadia Code", sans-serif;
+  /*   background-color: #222428; */
   padding: 0;
 }
 
@@ -69,98 +69,116 @@ p {
   font-size: 18px;
 }
 
-@media screen and (max-width: 430px) { 
+@media screen and (max-width: 430px) {
   .App {
-     width: 100%;
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
-     max-width: 390;
- }
- .hero {
-  display: flex;
-  flex-direction: column;
- }
- .more{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- }
- .btn{
-  margin-bottom: 10px;
- }
- .form {
-  width: 350px;
-  height: 50px;
- }
- .projects {
-  display: flex;
-  flex-direction: row;
- }
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 390;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
+  .form {
+    width: 350px;
+    height: 50px;
+  }
+  .projects {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 800px) {
   .App {
-     width: 100%;
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
-     max-width: 390;
- }
- .hero {
-  display: flex;
-  flex-direction: column;
- }
- .more{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- }
- .btn{
-  margin-bottom: 10px;
- }
- .form {
-  width: 350px;
-  height: 50px;
- }
- .projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
- }
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 390;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .card-hero{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .info{
+        line-height: 0px;
+      }
+
+      h4{
+        text-align: center;
+      }
+    }
+  }
+  .more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
+  .form {
+    width: 350px;
+    height: 50px;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
-@media screen and (max-width: 290px) { 
+@media screen and (max-width: 290px) {
   .App {
-     width: 100%;
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
-     max-width: 390;
- }
- .hero {
-  display: flex;
-  flex-direction: column;
- }
- .more{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
- }
- .btn{
-  margin-bottom: 10px;
- }
- .form {
-  width: 240px;
-  height: 50px;
- }
- .button{
-  width: 200px;
- }
- .projects {
-  display: flex;
-  flex-direction: row;
- }
-}
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 390;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+    
+  }
+  .more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
+  .form {
+    width: 240px;
+    height: 50px;
+  }
+  .button {
+    width: 200px;
+  }
+  .projects {
+    display: flex;
+    flex-direction: row;
+  }
+}
