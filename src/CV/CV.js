@@ -71,6 +71,7 @@ export const CV = {
     node: "/assets/nodejs-original-wordmark.svg",
     linux: "/assets/linux-original.svg",
     react: "/assets/react-original-wordmark.svg",
+    angular: "/assets/angular.svg",
 },
   projects: [
     {

@@ -16,7 +16,7 @@ button {
   width: 180px;
   height: 50px;
   border-radius: 16px;
-  margin-left: 15px;
+/*   margin-left: 15px; */
   border: #222428;
   background-color: #222428;
   font-size: 20px;
@@ -32,6 +32,7 @@ button {
   display: flex;
   justify-content: center;
   padding-bottom: 30px;
+  gap: 40px;
 }
 
 .icon {
@@ -86,6 +87,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
   .btn {
     margin-bottom: 10px;
@@ -131,6 +133,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
   .btn {
     margin-bottom: 10px;
@@ -166,6 +169,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
   .btn {
     margin-bottom: 10px;
