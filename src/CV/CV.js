@@ -94,17 +94,24 @@ export const CV = {
       img: "/assets/carsproject.png",
     },
     {
-      name: "Clínica médica",
-      url: "http://healthalgorithm.es/",
-      github: "https://github.com/JaviiAzagra/front-proyectofinal",
-      img: "/assets/health.png",
-    },
-    {
       name: "The Cinephile",
       url: "https://the-cinephile.vercel.app/",
       github: "https://github.com/Nagema/movies-final-project-react",
       img: "/assets/cinephile.png",
     },
+    {
+      name: "Luxury Cars",
+      url: "https://luxury-cars-two.vercel.app/",
+      github: "https://github.com/JaviiAzagra/Luxury-Cars-Angular-Project",
+      img: "/assets/luxurycars.png",
+    },
+    {
+      name: "Clínica médica",
+      url: "http://healthalgorithm.es/",
+      github: "https://github.com/JaviiAzagra/front-proyectofinal",
+      img: "/assets/health.png",
+    },
+    
   ],
 };
 
