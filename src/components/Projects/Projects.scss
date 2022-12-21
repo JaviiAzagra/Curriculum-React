@@ -1,103 +1,48 @@
 .projects {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 30px;
-}
-.projects-card {
-  padding-left: 20px;
-  padding-right: 20px;
   text-align: center;
-  border-radius: 12px;
-}
 
-.button {
-  display: flex;
-}
+  h1 {
+    padding-bottom: 40px;
+  }
 
-.Dado {
-  width: 200px;
-  height: 300px;
-  margin: 30px;
-  border: solid 1px rgb(0, 0, 0);
-  border-radius: 20px;
-  background-image: url("../../../public/assets/dadoproject.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+  &__box {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
 
-.Clínica{
-  width: 200px;
-  height: 300px;
-  margin: 30px;
-  border: solid 1px rgb(0, 0, 0);
-  border-radius: 20px;
-  background-image: url("../../../public/assets/health.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+    img {
+      width: 200px;
+      height: 300px;
+      border-radius: 20px;
+    }
 
-.PokeApi {
-  width: 200px;
-  height: 300px;
-  margin: 30px;
-  border: solid 1px rgb(0, 0, 0);
-  border-radius: 20px;
-  background-image: url("../../../public/assets/pokeapiproject.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+    &--card {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
 
-.API-Cars-Fronted {
-  width: 200px;
-  height: 300px;
-  margin: 30px;
-  border: solid 1px rgb(0, 0, 0);
-  border-radius: 20px;
-  background-color: rgb(0, 0, 0);
-  background-image: url("../../../public/assets/carsproject.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-.CarsApi {
-  width: 200px;
-  height: 300px;
-  margin: 30px;
-  border: solid 1px rgb(0, 0, 0);
-  border-radius: 20px;
-  background-color: rgb(0, 0, 0);
-  background-image: url("../../../public/assets/carsproject.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+      &--img:hover{
+        animation: bounce 0.5s linear;
+        box-shadow: 0 0 20px #46f3ff;
+        border-radius: 20px;
+      }
 
-.card p {
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-}
-
-.card img {
-  border-radius: 30px;
-  margin-bottom: 40px;
-}
-
-.links {
-  display: flex;
-  justify-content: center;
-}
-
-.links a {
-  border-radius: 15px;
-  width: 80px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
+      @keyframes bounce {
+        20% {
+          transform: translateY(-6px);
+        }
+        40% {
+          transform: translateY(0px);
+        }
+        60% {
+          transform: translateY(-2px);
+        }
+        80% {
+          transform: translateY(-0px);
+        }
+      }
+      
+    }
+  }
 }

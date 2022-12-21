@@ -1,24 +1,18 @@
 import React from "react";
-import "./Projects.scss"
+import "./Projects.scss";
 
 const Projects = ({ projects }) => {
   /* console.log(projects); */
   return (
-    <div>
-        <h1>[ Projects ]</h1>
-      <div className="projects projects-card">
+    <div className="projects">
+      <h1>[ Projects ]</h1>
+      <div className="projects__box">
         {projects.map((item) => {
           return (
-            <div key={JSON.stringify(item)} > 
-                <div className="card">
-                  <div className={item.name} ></div>
-                    <div>
-                    <a href={item.url} rel="noreferrer" target="_blank"><p>{item.name}</p></a>
-                    </div>
-                    <div>
-                    <a href={item.github} rel="noreferrer" target="_blank"><p>GitHub</p></a>
-                    </div>
-                </div>
+            <div className="projects__box--card" key={JSON.stringify(item)}>
+              <a className="projects__box--card--img" href={item.url} rel="noreferrer" target="_blank"><img  src={item.img} alt={item.name} /></a>
+              <a href={item.url} rel="noreferrer" target="_blank">{item.name}</a>
+              <a href={item.github} rel="noreferrer" target="_blank">GitHub</a>
             </div>
           );
         })}

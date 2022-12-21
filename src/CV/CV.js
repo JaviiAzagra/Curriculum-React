@@ -87,7 +87,7 @@ export const CV = {
       img: "/assets/pokeapiproject.png",
     },
     {
-      name: "CarsApi",
+      name: "Lamborghini / Ferrari",
       back: "https://github.com/JaviiAzagra/Lamborghini-Ferrari-Api",
       url: "https://lamborghini-ferrari.vercel.app/",
       github: "https://github.com/JaviiAzagra/Lamborghini-Ferrari-Api",
@@ -98,6 +98,12 @@ export const CV = {
       url: "http://healthalgorithm.es/",
       github: "https://github.com/JaviiAzagra/front-proyectofinal",
       img: "/assets/health.png",
+    },
+    {
+      name: "The Cinephile",
+      url: "https://the-cinephile.vercel.app/",
+      github: "https://github.com/Nagema/movies-final-project-react",
+      img: "/assets/cinephile.png",
     },
   ],
 };

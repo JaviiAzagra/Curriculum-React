@@ -6,8 +6,7 @@ const Habilities = ({ habilities }) => {
     <div>
       <h1>[ Skills ]</h1>
       <div className="habilities">
-        <div>
-          <div className="images">
+          <div className="habilities__images">
             <img src={habilities.linux} alt="linux" />
             <img src={habilities.html} alt="html" />
             <img src={habilities.css} alt="css" />
@@ -17,7 +16,6 @@ const Habilities = ({ habilities }) => {
             <img src={habilities.node} alt="node" />
             <img src={habilities.mongo} alt="mongo" />
           </div>
-        </div>
       </div>
     </div>
   );
