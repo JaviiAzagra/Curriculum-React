@@ -22,7 +22,7 @@ export const CV = {
   education: [
     {
       name: "Bootcamp Full Stack Developer Full Time",
-      date: "2022 - Present",
+      date: "Sep 2022 - Dec 2022",
       where: "Upgrade Hub, Madrid",
     },
     {
@@ -92,6 +92,12 @@ export const CV = {
       url: "https://lamborghini-ferrari.vercel.app/",
       github: "https://github.com/JaviiAzagra/Lamborghini-Ferrari-Api",
       img: "/assets/carsproject.png",
+    },
+    {
+      name: "Clínica médica",
+      url: "http://healthalgorithm.es/",
+      github: "https://github.com/JaviiAzagra/front-proyectofinal",
+      img: "/assets/health.png",
     },
   ],
 };
