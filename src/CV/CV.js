@@ -111,6 +111,12 @@ export const CV = {
       github: "https://github.com/JaviiAzagra/front-proyectofinal",
       img: "/assets/health.png",
     },
+    {
+      name: "Four Corners",
+      url: "https://four-corners-shop.vercel.app/",
+      github: "https://github.com/JaviiAzagra/sneaker-shop",
+      img: "/assets/fourcorners1.png",
+    },
     
   ],
 };
