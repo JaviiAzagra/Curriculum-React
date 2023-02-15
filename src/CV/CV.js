@@ -9,13 +9,13 @@ export const CV = {
     gitHub: "https://github.com/JaviiAzagra",
     aboutMe: [
       {
-        info: "Full stack developer student with a lot of motivation.",
+        info: "Estudiante de Full Stack con mucha motivación para seguir aprendiendo y formándome.",
       },
       {
-        info: "Prepared to demonstrate my skills and teamwork to achieve good results.",
+        info: "Preparado para demostrar todas mis habilidades y trabajo en equipo para conseguir buenos resultados.",
       },
       {
-        info: "I like music and cars, especially going out for a drive.",
+        info: "Me gusta la música, los coches y todo lo que tiene que ver con el mundo de la informática (Hardware y Software).",
       },
     ],
   },
@@ -26,7 +26,7 @@ export const CV = {
       where: "Upgrade Hub, Madrid",
     },
     {
-      name: "Grado Superior en Administracion de Sistemas Informaticos en Red",
+      name: "Grado Superior en Administración de Sistemas Informáticos en Red",
       date: "2019 - 2021",
       where: "ISEP CEU, Madrid",
     },
@@ -47,11 +47,6 @@ export const CV = {
       date: "05/04/2021 - 8/06/2021",
       where: "ALTEN",
     },
-    /* {
-      name: "Hosteleria",
-      date: "01/07/2022 - 30/07/2022",
-      where: "La Luna",
-    }, */
   ],
   languages: [
     {

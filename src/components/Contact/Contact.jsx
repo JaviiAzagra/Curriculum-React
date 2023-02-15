@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='container'>
       <h1>[ Contact ]</h1>
       <div className='contact'>
-        <p>If you want to know more about me I leave you the contact information below.</p>
+        <p>Para obtener mas información sobre mi puedes escribirme al siguiente correo o por Linkedin</p>
         <p> <a href={"mailto: javiazagra12@gmail.com"}> javiazagra12@gmail.com</a> </p>
         <a href='https://www.linkedin.com/in/javier-azagra-garc%C3%ADa/'>Linkedin</a>
       </div>
