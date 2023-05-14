@@ -4,7 +4,7 @@ import "./About.scss";
 
 const About = ({ metadata }) => {
   return (
-    <div className="about">
+    <div className="about" id="About">
       <div className="about-card">
         <h1>[ About Me ]</h1>
           {metadata.map((element) => {

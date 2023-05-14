@@ -3,7 +3,7 @@ import "./Contact.scss"
 
 const Contact = () => {
   return (
-    <div className='container'>
+    <div className='container' id='Contact'>
       <h1>[ Contact ]</h1>
       <div className='contact'>
         <p>Para obtener mas información sobre mi puedes escribirme al siguiente correo o por Linkedin</p>

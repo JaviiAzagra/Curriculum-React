@@ -6,7 +6,7 @@
 }
 
 html {
-  background-color: #222428;
+  background-color: #ffffff;
 }
 
 .App {
@@ -20,9 +20,9 @@ button {
   height: 50px;
   border-radius: 16px;
   border: none;
-  background-color: #222428;
+  background-color: rgb(255, 255, 255);
   font-size: 20px;
-  color: #46f3ff;
+  color: #000000;
 
 }
 
@@ -43,16 +43,16 @@ button {
 }
 
 h1 {
-  color: #46f3ff;
+  color: #ff9d00;
   text-align: center;
   font-size: 40px;
 }
 h4 {
-  color: #46f3ff;
+  color: #ff9d00;
   font-size: 20px;
 }
 a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -61,48 +61,16 @@ a:hover {
 }
 
 .icons {
-  color: #ffffff;
+  color: #ff9d00;
 }
 
 .icon {
-  color: #46f3ff;
+  color: #ff9d00;
 }
 
 p {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 18px;
-}
-
-@media screen and (max-width: 430px) {
-  .App {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    max-width: 390;
-  }
-  .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .more {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-  .btn {
-    margin-bottom: 10px;
-  }
-  .form {
-    width: 350px;
-    height: 50px;
-  }
-  .projects {
-    display: flex;
-    flex-direction: row;
-  }
 }
 
 @media screen and (max-width: 800px) {
@@ -112,6 +80,9 @@ p {
     justify-content: center;
     flex-direction: column;
     max-width: 390;
+  }
+  .about{
+    padding-top: 0;
   }
   .hero {
     display: flex;
@@ -131,6 +102,49 @@ p {
         text-align: center;
       }
     }
+  }
+
+@media screen and (max-width: 430px) {
+  .App {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 390;
+  }
+  .hero--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .about{
+    padding-top: 0;
+  }
+  .more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
+  .form {
+    width: 350px;
+    height: 50px;
+  }
+  .projects {
+    display: flex;
+    flex-direction: row;
+  }
+}
+  .hero--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
   }
   .more {
     display: flex;
@@ -162,10 +176,19 @@ p {
     flex-direction: column;
     max-width: 390;
   }
+  .about{
+    padding-top: 0;
+  }
   .hero {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .hero--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
   }
   .more {
     display: flex;

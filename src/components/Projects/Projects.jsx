@@ -4,7 +4,7 @@ import "./Projects.scss";
 const Projects = ({ projects }) => {
   /* console.log(projects); */
   return (
-    <div className="projects">
+    <div className="projects" id="Projects">
       <h1>[ Projects ]</h1>
       <div className="projects__box">
         {projects.map((item) => {

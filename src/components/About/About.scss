@@ -2,20 +2,39 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  padding-top: 200px;
 }
 .about-card {
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 12px;
-  align-items: center;  
+  align-items: center;
 }
 
-.about-p{
+.about-p {
   text-align: center;
 }
 
-.line{
+.line {
   text-align: center;
   border: 2px solid #000000;
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .about {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .about {
+    padding-top: 20px;
+  }
 }
