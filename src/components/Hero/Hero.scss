@@ -1,11 +1,9 @@
-.heroname{
-  padding-top: 50px;
+.herocontainer{
   min-height: 100vh;
   width: 100%;
 }
 
 .hero {
-  
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -24,7 +22,7 @@
 
 .myname{
   color: #000000;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .logo {
@@ -52,6 +50,8 @@
 .cv{
   display: flex;
   justify-content: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
 
   a{
     display: flex;
@@ -82,22 +82,82 @@
 
 
 @media screen and (max-width: 800px) {
+  .hero {
+ 
+    &--container{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  
+      h4{
+        font-size: 30px;
+      }
+    } 
+  }
   .logo {
-    width: 200px;
+    width: 240px;
 
+  }
+
+  .myname{
+    color: #000000;
+    font-size: 25px;
+    padding-bottom: 6%;
   }
 }
 
 @media screen and (max-width: 430px) {
+  .hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 10%;
+  
+    &--container{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  
+      h4{
+        font-size: 30px;
+      }
+    } 
+  }
   .logo {
-    width: 200px;
+    width: 240px;
 
+  }
+  .myname{
+    color: #000000;
+    font-size: 25px;
+    padding-bottom: 6%;
   }
 }
 
 @media screen and (max-width: 290px) {
+  .hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 10%;
+  
+    &--container{
+      display: flex;
+      align-items: center;
+      gap: 100px;
+  
+      h4{
+        font-size: 30px;
+      }
+    } 
+  }
   .logo {
-    width: 200px;
+    width: 240px;
 
+  }
+  .myname{
+    color: #000000;
+    font-size: 25px;
+    padding-bottom: 6%;
   }
 }

@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
-import Hero from "../Hero/Hero";
-import Contact from "../Contact/Contact";
 
 const Navbar = ({ sticky }) => {
   const [menu, setMenu] = useState(false);
@@ -12,6 +10,9 @@ const Navbar = ({ sticky }) => {
 
   return (
     <header className="Cabecera">
+      <div>
+          <h2>JaviiAzagra</h2>
+        </div>
       <button onClick={toggleMenu} className="Cabecera-button">
         <svg
           className="Cabecera-svg"
@@ -29,28 +30,30 @@ const Navbar = ({ sticky }) => {
       </button>
 
       <nav className={`Cabecera-nav ${menu ? "isActive" : ""}`}>
-        <ul className="Cabecera-ul">
-          <li className="Cabecera-li">
-            <a href="#Home" className="Cabecera-a">
-              Home
-            </a>
-          </li>
-          <li className="Cabecera-li">
-            <a href="#About" className="Cabecera-a">
-              About Me
-            </a>
-          </li>
-          <li className="Cabecera-li">
-            <a href="#Projects" className="Cabecera-a">
-              Projects
-            </a>
-          </li>
-          <li className="Cabecera-li">
-            <a href="#Contact" className="Cabecera-a">
-              Contact
-            </a>
-          </li>
-        </ul>
+        <div className="links">
+          <ul className="Cabecera-ul">
+            <li className="Cabecera-li">
+              <a href="#Home" className="Cabecera-a">
+                Home
+              </a>
+            </li>
+            <li className="Cabecera-li">
+              <a href="#About" className="Cabecera-a">
+                About
+              </a>
+            </li>
+            <li className="Cabecera-li">
+              <a href="#Projects" className="Cabecera-a">
+                Projects
+              </a>
+            </li>
+            <li className="Cabecera-li">
+              <a href="#Contact" className="Cabecera-a">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
   );

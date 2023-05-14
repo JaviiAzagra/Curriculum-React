@@ -3,8 +3,8 @@ import "./Habilities.scss";
 
 const Habilities = ({ habilities }) => {
   return (
-    <div id="Skills">
-      <h1>[ Skills ]</h1>
+    <div className="skills" id="Skills">
+      {/* <h1>[ Skills ]</h1> */}
       <div className="habilities">
           <div className="habilities__images">
             <img src={habilities.linux} alt="linux" />

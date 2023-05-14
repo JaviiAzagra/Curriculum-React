@@ -10,11 +10,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import pdf from "./JavierAzagraCV.pdf";
+import Habilities from "../Habilities/Habilities";
+import CV from "../../CV/CV";
+
+const { habilities} = CV;
 
 const Hero = ({ hero }) => {
   return (
-    <div className="heroname" id="Home">
-      <h1 className="myname">{hero.name}</h1>
+    <div className="herocontainer" id="Home">
       <div className="hero">
         <div className="hero--container">
           <div className="img">
@@ -24,6 +27,7 @@ const Hero = ({ hero }) => {
           <div className="card-hero">
             <h4>{hero.about}</h4>
             <div className="info">
+            <p className="myname">{hero.name}</p>
               <p>
                 <FontAwesomeIcon className="icons" icon={faLocationDot} />{" "}
                 {hero.city}{" "}
@@ -59,6 +63,7 @@ const Hero = ({ hero }) => {
           <FontAwesomeIcon className="icons-cv" icon={faDownload} /> Download CV
         </a>
       </div>
+      <Habilities habilities={habilities}/>
     </div>
   );
 };
