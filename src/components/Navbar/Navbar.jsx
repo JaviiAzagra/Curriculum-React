@@ -10,7 +10,7 @@ const Navbar = ({ sticky }) => {
 
   return (
     <header className="Cabecera">
-      <div>
+      <div className="title">
           <h2>JaviiAzagra</h2>
         </div>
       <button onClick={toggleMenu} className="Cabecera-button">
