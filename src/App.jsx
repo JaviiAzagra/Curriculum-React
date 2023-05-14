@@ -8,6 +8,7 @@ import Buttons from "./components/Buttons/Buttons";
 import CV from "./CV/CV";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer/Footer";
 
 const { hero } = CV;
 
@@ -18,10 +19,10 @@ function App() {
       <Navbar></Navbar>
       <Hero hero={hero} />
       <About metadata={hero.aboutMe} />
-
       <Projects projects={CV.projects}/>
       <Buttons/>
-      <Contact/>    
+      <Contact/>
+      <Footer/>   
     </div>
   );
 };
