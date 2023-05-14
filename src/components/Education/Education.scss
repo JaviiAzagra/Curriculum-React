@@ -11,3 +11,24 @@
   text-align: center;
   border-radius: 12px;
 }
+
+@media screen and (max-width: 800px) {
+  .education {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .education {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .education {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

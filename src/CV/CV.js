@@ -82,7 +82,7 @@ export const CV = {
       img: "/assets/pokeapiproject.png",
     },
     {
-      name: "Lamborghini / Ferrari",
+      name: "Lambo Ferrari",
       back: "https://github.com/JaviiAzagra/Lamborghini-Ferrari-Api",
       url: "https://lamborghini-ferrari.vercel.app/",
       github: "https://github.com/JaviiAzagra/Lamborghini-Ferrari-Api",

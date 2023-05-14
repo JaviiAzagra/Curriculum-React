@@ -49,3 +49,37 @@
     }
   }
 }
+
+
+@media screen and (max-width: 800px) {
+  .projects {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .projects__box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+    img {
+      width: 150px;
+      height: 225px;
+      border-radius: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .projects {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .projects {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

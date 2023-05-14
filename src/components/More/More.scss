@@ -15,4 +15,24 @@
   flex-direction: row;
 }
 
+@media screen and (max-width: 800px) {
+  .box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .box {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
 

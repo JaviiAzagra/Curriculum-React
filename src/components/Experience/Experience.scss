@@ -11,3 +11,24 @@
   text-align: center;
   border-radius: 12px;
 }
+
+@media screen and (max-width: 800px) {
+  .experience {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .experience {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .experience {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

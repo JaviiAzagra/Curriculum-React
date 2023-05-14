@@ -6,7 +6,7 @@
 }
 
 html {
-  background-color: #eaeaea;
+  background-color: rgb(249,249,249);
 }
 
 .App {
@@ -85,6 +85,10 @@ p {
     flex-direction: column;
     max-width: 390;
   }
+  .buttons{
+    background-color: white;
+    padding-top: 20px;
+  }
   .about{
     padding-top: 0;
   }
@@ -106,6 +110,13 @@ p {
         text-align: center;
       }
     }
+    .projects {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+    }
   }
 
 @media screen and (max-width: 430px) {
@@ -121,6 +132,10 @@ p {
     flex-direction: column;
     align-items: center;
     gap: 5px;
+  }
+  .buttons{
+    background-color: white;
+    padding-top: 20px;
   }
 
   .about{
@@ -169,6 +184,9 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+      padding-top: 0;
+      padding-bottom: 0;
+
   }
 }
 
@@ -179,6 +197,10 @@ p {
     justify-content: center;
     flex-direction: column;
     max-width: 390;
+  }
+  .buttons{
+    background-color: white;
+    padding-top: 20px;
   }
   .about{
     padding-top: 0;
@@ -213,5 +235,7 @@ p {
   .projects {
     display: flex;
     flex-direction: row;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
