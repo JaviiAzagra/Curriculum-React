@@ -108,8 +108,8 @@ export const CV = {
     },
     {
       name: "Four Corners",
-      url: "https://four-corners-shop.vercel.app/",
-      github: "https://github.com/JaviiAzagra/sneaker-shop",
+      url: "https://four-corners-rho.vercel.app/",
+      github: "https://github.com/JaviiAzagra/Four-Corners",
       img: "/assets/fourcorners1.png",
     },
     
