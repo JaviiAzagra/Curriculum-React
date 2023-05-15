@@ -26,8 +26,8 @@ const Hero = ({ hero }) => {
 
           <div className="card-hero">
             <h4>{hero.about}</h4>
+            <h1 className="myname">{hero.name}</h1>
             <div className="info">
-            <p className="myname">{hero.name}</p>
               <p>
                 <FontAwesomeIcon className="icons" icon={faLocationDot} />{" "}
                 {hero.city}{" "}
