@@ -1,4 +1,66 @@
-.herocontainer{
+.img {
+  background-image: url("../../../public/assets/logo.jpg");
+  width: 25rem;
+  height: 25rem;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  position: relative;
+  transition: all 1s ease-in-out;
+
+  @keyframes morph {
+    0% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    50% {
+      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+
+    100% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+  }
+}
+
+.img:hover {
+  background-image: url("../../../public/assets/logo.jpg");
+  width: 30rem;
+  height: 30rem;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 3px solid black;
+
+  @media (max-width: 500px) {
+    width: 28rem;
+    height: 28rem;
+  }
+
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  position: relative;
+  transition: all 1s ease-in-out;
+
+  @keyframes morph {
+    0% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    50% {
+      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+
+    100% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+  }
+}
+
+.herocontainer {
   min-height: 100vh;
   width: 100%;
 }
@@ -9,30 +71,30 @@
   justify-content: center;
   padding-top: 10%;
 
-  &--container{
+  &--container {
     display: flex;
     align-items: center;
     gap: 100px;
 
-    h4{
+    h4 {
       font-size: 40px;
     }
-  } 
+  }
 }
 
-.myname{
+.myname {
   color: #000000;
   font-size: 30px;
 }
 
-.logo {
+/* .logo {
   width: 360px;
   border-radius: 50%;
   display: flex;
   border: solid 3px #000000;
-}
+} */
 
-.btn-cv{
+.btn-cv {
   width: 180px;
   height: 50px;
   border-radius: 16px;
@@ -47,13 +109,13 @@
   color: #000000;
 }
 
-.cv{
+.cv {
   display: flex;
   justify-content: center;
   padding-top: 3%;
   padding-bottom: 3%;
 
-  a{
+  a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,45 +123,52 @@
     gap: 10px;
   }
 
-  &__btn{
+  &__btn {
     border: 1px solid #000000;
     height: 50px;
     width: 150px;
     color: rgb(0, 0, 0);
-    border-radius: 10px;   
+    border-radius: 10px;
   }
 
-  &__btn:hover{
+  &__btn:hover {
     background-color: #000000;
     color: rgb(255, 255, 255);
-    font-weight: bold;   
+    font-weight: bold;
   }
 }
-.icons.cv{
+.icons.cv {
   color: black;
   margin-right: 100px;
 }
 
-
 @media screen and (max-width: 800px) {
+  .img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .img:hover{
+    width: 17rem;
+    height: 17rem;
+  }
+
   .hero {
- 
-    &--container{
+    &--container {
       display: flex;
       align-items: center;
       gap: 10px;
-  
-      h4{
+
+      h4 {
         font-size: 30px;
       }
-    } 
+    }
   }
   .logo {
     width: 240px;
-
   }
 
-  .myname{
+  .myname {
     color: #000000;
     font-size: 25px;
     padding-bottom: 6%;
@@ -107,27 +176,30 @@
 }
 
 @media screen and (max-width: 430px) {
+  .herocontainer{
+    padding-top: 15%;
+  }
+  
   .hero {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     padding-top: 10%;
-  
-    &--container{
+
+    &--container {
       display: flex;
       align-items: center;
       gap: 20px;
-  
-      h4{
+
+      h4 {
         font-size: 30px;
       }
-    } 
+    }
   }
   .logo {
     width: 240px;
-
   }
-  .myname{
+  .myname {
     color: #000000;
     font-size: 25px;
     padding-bottom: 6%;
@@ -140,22 +212,21 @@
     align-items: flex-start;
     justify-content: center;
     padding-top: 10%;
-  
-    &--container{
+
+    &--container {
       display: flex;
       align-items: center;
       gap: 100px;
-  
-      h4{
+
+      h4 {
         font-size: 30px;
       }
-    } 
+    }
   }
   .logo {
     width: 240px;
-
   }
-  .myname{
+  .myname {
     color: #000000;
     font-size: 25px;
     padding-bottom: 6%;

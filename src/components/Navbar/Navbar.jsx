@@ -1,61 +1,79 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
 
-const Navbar = ({ sticky }) => {
-  const [menu, setMenu] = useState(false);
+const Navbar = () => {
+  const [hamburger, setHamburger] = useState(false);
 
-  const toggleMenu = () => {
-    setMenu(!menu);
+  const hamburgerMenu = () => {
+    setHamburger(!hamburger);
+  };
+
+  const pageUp = () => {
+    window.scrollTo({ top: (0, 0), behavior: "smooth" });
   };
 
   return (
-    <header className="Cabecera">
-      <div className="title">
-          <h2>JaviiAzagra</h2>
-        </div>
-      <button onClick={toggleMenu} className="Cabecera-button">
-        <svg
-          className="Cabecera-svg"
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          fill="currentColor"
-          viewBox="0 0 16 16"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-          />
-        </svg>
-      </button>
+    <>
+      <nav>
+        <h3 onClick={pageUp} className="logo">
+          JaviiAzagra
+        </h3>
 
-      <nav className={`Cabecera-nav ${menu ? "isActive" : ""}`}>
-        <div className="links">
-          <ul className="Cabecera-ul">
-            <li className="Cabecera-li">
-              <a href="#Home" className="Cabecera-a">
-                Home
-              </a>
-            </li>
-            <li className="Cabecera-li">
-              <a href="#About" className="Cabecera-a">
-                About
-              </a>
-            </li>
-            <li className="Cabecera-li">
-              <a href="#Projects" className="Cabecera-a">
-                Projects
-              </a>
-            </li>
-            <li className="Cabecera-li">
-              <a href="#Contact" className="Cabecera-a">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
+        <ul>
+          <li>
+            <a href="#Home">Home</a>
+          </li>
+
+          <li>
+            <a href="#About">About</a>
+          </li>
+
+          <li>
+            <a href="#Projects">Projects</a>
+          </li>
+
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+
+          <li onClick={() => hamburgerMenu()}>
+            <i className="mobile-menu">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+              </svg>
+            </i>
+          </li>
+        </ul>
       </nav>
-    </header>
+
+      <div className={`mobile-nav ${hamburger ? "open-menu" : "closed-menu"}`}>
+        <span onClick={() => hamburgerMenu()}>
+          <i className="mobile-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+              <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+            </svg>
+          </i>
+        </span>
+
+        <ul>
+          <li onClick={() => hamburgerMenu()}>
+            <a href="#Home">Home</a>
+          </li>
+
+          <li onClick={() => hamburgerMenu()}>
+            <a href="#About">About</a>
+          </li>
+
+          <li onClick={() => hamburgerMenu()}>
+            <a href="#Projects">Projects</a>
+          </li>
+
+          <li onClick={() => hamburgerMenu()}>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </>
   );
 };
 

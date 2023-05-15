@@ -21,7 +21,7 @@ const Hero = ({ hero }) => {
       <div className="hero">
         <div className="hero--container">
           <div className="img">
-            <img className="logo" src={hero.image} alt="" />
+            {/* <img className="logo" src={hero.image} alt="" /> */}
           </div>
 
           <div className="card-hero">
