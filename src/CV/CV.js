@@ -1,7 +1,7 @@
 export const CV = {
   hero: {
     name: "< Hi, I'm Javier Azagra />",
-    about: "Full Stack Developer Student",
+    about: "Full Stack Developer Jr",
     city: "Madrid / Spain",
     email: "javiazagra12@gmail.com",
     birthDate: "12/06/2000",
@@ -42,6 +42,11 @@ export const CV = {
     },
   ],
   experience: [
+    {
+      name: "Tecnico de soporte IT",
+      date: "25/05/2023 - 16/06/2023",
+      where: "PRIMAVERA SOUND",
+    },
     {
       name: "Tecnico de soporte IT",
       date: "05/04/2021 - 8/06/2021",

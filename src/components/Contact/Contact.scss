@@ -1,4 +1,4 @@
-.contact{
+.containercontact{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -12,9 +12,10 @@
 
 .contact a {
     font-size: 18px;
+    text-align: center;
 }
 
-.container{
+.containercontact{
     padding-top: 30px;
     padding-bottom: 70px;
 }

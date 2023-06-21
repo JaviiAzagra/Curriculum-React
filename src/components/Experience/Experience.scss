@@ -4,6 +4,8 @@
   align-items: center;
   padding-bottom: 200px;
   background-color: white;
+  gap: 30px;
+  width: 500px;
 }
 .experience-card {
   padding-left: 20px;
@@ -16,13 +18,17 @@
   .experience {
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 500px;
+    padding: 0;
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 400px) {
   .experience {
     padding-top: 20px;
     padding-bottom: 20px;
+    max-width: 380px;
+    padding: 0;
   }
 }
 
@@ -30,5 +36,7 @@
   .experience {
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 285px;
+    padding: 0;
   }
 }

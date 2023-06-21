@@ -12,6 +12,10 @@ const Navbar = () => {
     window.scrollTo({ top: (0, 0), behavior: "smooth" });
   };
 
+  /* const home = () => {
+    window.scrollTo({ top: (href="#Home"), behavior: "smooth" });
+  }; */
+
   return (
     <>
       <nav>
@@ -21,7 +25,7 @@ const Navbar = () => {
 
         <ul>
           <li>
-            <a href="#Home">Home</a>
+            <a onClick={pageUp} /* href="#Home" */>Home</a>
           </li>
 
           <li>
@@ -30,6 +34,10 @@ const Navbar = () => {
 
           <li>
             <a href="#Projects">Projects</a>
+          </li>
+
+          <li>
+            <a href="#Button">Experience</a>
           </li>
 
           <li>
