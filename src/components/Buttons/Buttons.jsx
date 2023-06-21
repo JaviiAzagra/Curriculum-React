@@ -14,7 +14,7 @@ const {education, experience, languages} = CV;
 const Buttons = () => {
     /* const [Options, changeOption] = useState("Experience"); */
   return (
-    <div className='container' id='Button'>
+    <div className='containerbuttons' id='Button'>
       <Education education={ education }/>
       <Experience experience={ experience }/>
       <More props={ languages }/>

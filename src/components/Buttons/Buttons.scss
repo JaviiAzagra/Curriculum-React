@@ -1,9 +1,30 @@
-.container{
-    display: flex;
-    flex: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 60px;
-    background-color: white;
-    padding-top: 200px;
+.containerbuttons {
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 60px;
+  background-color: white;
+  padding-top: 200px;
+}
+
+@media screen and (max-width: 800px) {
+  .containerbuttons {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .containerbuttons {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .containerbuttons {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
