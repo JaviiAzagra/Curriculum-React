@@ -77,6 +77,10 @@ const Navbar = () => {
           </li>
 
           <li onClick={() => hamburgerMenu()}>
+            <a href="#Button">Experience</a>
+          </li>
+
+          <li onClick={() => hamburgerMenu()}>
             <a href="#Contact">Contact</a>
           </li>
         </ul>
