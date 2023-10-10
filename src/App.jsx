@@ -9,6 +9,7 @@ import CV from "./CV/CV";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
+import { Analytics } from '@vercel/analytics/react';
 
 const { hero } = CV;
 
@@ -22,7 +23,8 @@ function App() {
       <Projects projects={CV.projects}/>
       <Buttons/>
       <Contact/>
-      <Footer/>   
+      <Footer/> 
+      <Analytics/>  
     </div>
   );
 };
